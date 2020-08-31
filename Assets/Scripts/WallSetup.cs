@@ -46,6 +46,8 @@ public class WallSetup : MonoBehaviour
 
         Down.points = points;
         
+        //I made an arbitrary change here to test git!
+        
         //this didn't work
         //Down.points[0] = new Vector2(-screenBounds.x,-screenBounds.y);
         //Down.points[1] = new Vector2(screenBounds.x,-screenBounds.y);
