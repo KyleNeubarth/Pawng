@@ -45,13 +45,18 @@ public class WallSetup : MonoBehaviour
         points[1] = new Vector2(screenBounds.x,-screenBounds.y);
 
         Down.points = points;
+
+        GameObject player1 = GameObject.Find("Player1");
+        GameObject player2 = GameObject.Find("Player2");
         
+        player1.transform.position = new Vector3(-screenBounds.x+.25f,0,0);
+        player2.transform.position = new Vector3(screenBounds.x-.25f,0,0);
         //I made an arbitrary change here to test git!
-        
+
         //this didn't work
         //Down.points[0] = new Vector2(-screenBounds.x,-screenBounds.y);
         //Down.points[1] = new Vector2(screenBounds.x,-screenBounds.y);
-        
+
     }
 
     // Update is called once per frame

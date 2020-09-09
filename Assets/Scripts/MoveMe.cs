@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//script dedicated to figuring out why the hell I can't update edgecollider points
+// >:(
 public class MoveMe : MonoBehaviour
 {
     // Start is called before the first frame update
